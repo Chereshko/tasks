@@ -20,9 +20,60 @@
     line-height:50px;
     height: 50px;
     position:relative;
+    display: inline-block;
+
 }
 
-.ic{
-    border: 2px red solid;
-    color:white;
+.start_contest{
+    position: absolute;
+    background-color: white;
+    color:black;
+    right: 10px;
+    min-width:9.68rem;
+    height:50px;
+    display: inline-block;
+    font-width: 500;
+    border:1px solid transparent;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin-left:auto;
+    margin-right: 0;
+}
+
+.start_contest > span{
+    line-height: 26px;
+    height:26px;
+    text-align: center;
+}
+
+@media(max-width:813px){
+    .card > span {
+        max-width:350px;
+        line-height: 1.5;
+    }
+}
+
+@media(max-width:538px){
+    .card > span {
+        max-width:250px;
+        line-height: 1;
+    }
+}
+
+@media(max-width:433px){
+    .start_contest{
+        padding: 0;
+        min-width:70px;
+        width:70px;
+    }
+    .start_contest > span{
+        max-width:70px;
+        line-height: 1.5;
+    }
+    .card > span {
+        padding: 0;
+    }
+    .card{
+        padding-left: 12px;
+    }
 }
