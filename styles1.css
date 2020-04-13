@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    width: 96%;
+    height:98px;
+    margin:15px auto;
+    padding: 24px;
+    background: linear-gradient(to right, #3CA4F6, #423193);
+    position:absolute;
+}
+
+.card > span{
+    color:white;
+    font-family: "Poppins",Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    padding:0 15px;
+    line-height:50px;
+    height: 50px;
+    position:relative;
+}
+
+.ic{
+    border: 2px red solid;
+    color:white;
+}
